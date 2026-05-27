@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card { 
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0.4px 0.4px 0.4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+
+   display: flex;
+    flex-direction: column;
+}
+
+
+.card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Arial Black', Arial, sans-serif;
+
+}
+.card-text {
+    font-size: 1em;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+}
+.card-btn {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff3b2e;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;         /* Permet de passer à la ligne sur petit écran */
+    justify-content: center; /* Centre les cartes horizontalement */
+    gap: 20px;               /* Gère l'espace entre les cartes proprement */
+    padding: 20px;
+}
