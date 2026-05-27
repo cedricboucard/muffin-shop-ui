@@ -22,3 +22,6 @@ Ce projet pratique est un exercice d'intégration web visant à appliquer les me
 ## 📸 Aperçu du Rendu
 
 ![Screenshot](image.png)
+
+## 🚀 Live Demo
+https://cedricboucard.github.io/muffin-shop-ui/
